@@ -31,3 +31,11 @@
  - 맨 밑에 맞추기: layout_alignParentBottom
  - 다른 버튼 바로 밑에 붙이기: layout_below
  - 바로 위에 붙이기: layout_above
+
+### 위젯
+ - textView : 텍스트 보여줌
+ - toggleButton : 켜고 끄는 버튼
+ - checkBox : 체크, 해제 가능
+ - RadioGroup : 안에 RadioButton 넣어서 관리 가능
+ - plain text : 텍스트 입력 창
+   여기서 hint property를 수정할 경우, 누르면 사라지는 회색 글자 생성 가능

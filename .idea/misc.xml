@@ -3,12 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidStudio/ConstraintLayout/app/src/main/res/drawable/heart.xml" value="0.1953125" />
         <entry key="..\:/AndroidStudio/ConstraintLayout/app/src/main/res/drawable/ic_launcher_background.xml" value="0.26979166666666665" />
         <entry key="..\:/AndroidStudio/ConstraintLayout/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/AndroidStudio/ConstraintLayout/app/src/main/res/layout/frame.xml" value="0.25364583333333335" />
         <entry key="..\:/AndroidStudio/ConstraintLayout/app/src/main/res/layout/linear.xml" value="0.25364583333333335" />
         <entry key="..\:/AndroidStudio/ConstraintLayout/app/src/main/res/layout/relative.xml" value="0.1" />
         <entry key="..\:/AndroidStudio/ConstraintLayout/app/src/main/res/layout/weight.xml" value="0.264" />
+        <entry key="..\:/AndroidStudio/ConstraintLayout/app/src/main/res/layout/widget.xml" value="0.264" />
       </map>
     </option>
   </component>
