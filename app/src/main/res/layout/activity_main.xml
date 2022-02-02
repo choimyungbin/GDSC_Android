@@ -1,20 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#30E6D1">
+    android:background="@drawable/thumbnail_base"
+    android:orientation="vertical">
 
-    <Button
+    <android.widget.Button
         android:id="@+id/button9"
         android:layout_width="80dp"
         android:layout_height="80dp"
-        android:background="@drawable/heart_pressed"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.499" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:background="@drawable/heart" />
+
+    <View
+        android:id="@+id/button11"
+        android:layout_width="200dp"
+        android:layout_height="130dp"
+        android:background="@drawable/rect_shape" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/thumbnail_red">
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/linear_border"
+        android:text="Button" />
+</LinearLayout>
