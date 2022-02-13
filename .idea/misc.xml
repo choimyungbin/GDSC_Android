@@ -8,18 +8,23 @@
         <entry key="..\:/AndroidStudio/ConstraintLayout/app/src/main/res/drawable/ic_launcher_background.xml" value="0.26979166666666665" />
         <entry key="..\:/AndroidStudio/ConstraintLayout/app/src/main/res/drawable/linear_border.xml" value="0.536" />
         <entry key="..\:/AndroidStudio/ConstraintLayout/app/src/main/res/drawable/my_selector.xml" value="0.19722222222222222" />
+        <entry key="..\:/AndroidStudio/ConstraintLayout/app/src/main/res/drawable/ninepatch.xml" value="0.26979166666666665" />
         <entry key="..\:/AndroidStudio/ConstraintLayout/app/src/main/res/drawable/rect_shape.xml" value="0.22083333333333333" />
         <entry key="..\:/AndroidStudio/ConstraintLayout/app/src/main/res/drawable/thumbnail_base.xml" value="0.22083333333333333" />
         <entry key="..\:/AndroidStudio/ConstraintLayout/app/src/main/res/drawable/thumbnail_red.xml" value="0.22083333333333333" />
         <entry key="..\:/AndroidStudio/ConstraintLayout/app/src/main/res/drawable/toast.xml" value="0.14583333333333334" />
-        <entry key="..\:/AndroidStudio/ConstraintLayout/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/AndroidStudio/ConstraintLayout/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/AndroidStudio/ConstraintLayout/app/src/main/res/layout/activity_menu.xml" value="0.264" />
+        <entry key="..\:/AndroidStudio/ConstraintLayout/app/src/main/res/layout/alertdialog.xml" value="0.25364583333333335" />
+        <entry key="..\:/AndroidStudio/ConstraintLayout/app/src/main/res/layout/bitmap.xml" value="0.25364583333333335" />
         <entry key="..\:/AndroidStudio/ConstraintLayout/app/src/main/res/layout/drawable.xml" value="0.10572916666666667" />
         <entry key="..\:/AndroidStudio/ConstraintLayout/app/src/main/res/layout/event.xml" value="0.1296875" />
         <entry key="..\:/AndroidStudio/ConstraintLayout/app/src/main/res/layout/frame.xml" value="0.25364583333333335" />
         <entry key="..\:/AndroidStudio/ConstraintLayout/app/src/main/res/layout/linear.xml" value="0.25364583333333335" />
         <entry key="..\:/AndroidStudio/ConstraintLayout/app/src/main/res/layout/relative.xml" value="0.1" />
+        <entry key="..\:/AndroidStudio/ConstraintLayout/app/src/main/res/layout/sub1.xml" value="0.25364583333333335" />
         <entry key="..\:/AndroidStudio/ConstraintLayout/app/src/main/res/layout/table.xml" value="0.17883211678832117" />
+        <entry key="..\:/AndroidStudio/ConstraintLayout/app/src/main/res/layout/toast_snackbar.xml" value="0.25364583333333335" />
         <entry key="..\:/AndroidStudio/ConstraintLayout/app/src/main/res/layout/toastborder.xml" value="0.1296875" />
         <entry key="..\:/AndroidStudio/ConstraintLayout/app/src/main/res/layout/weight.xml" value="0.264" />
         <entry key="..\:/AndroidStudio/ConstraintLayout/app/src/main/res/layout/widget.xml" value="0.264" />

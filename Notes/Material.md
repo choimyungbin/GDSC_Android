@@ -1,5 +1,5 @@
 ## 토스트, 스낵바 띄우기
------
+
 ![Toast.png](Toast.png)
  - 토스트 : 짧은 메시지를 전달하는 팝업
 ![Snackbar.png](Snackbar.png)   
@@ -45,3 +45,36 @@
 			snackbar.show()
 		}
 ```   
+### 알림상자
+```kotlin 
+class AlertDialogActivity : AppCompatActivity() {
+	override fun onCreate(savedInstanceState: Bundle?) {
+		super.onCreate(savedInstanceState)
+		setContentView(R.layout.activity_main)
+
+		val button = findViewById<Button>(R.id.button19)
+		button.setOnClickListener { v ->
+			showMessage()
+		}
+	}
+```
+```kotlin 
+fun showMessage() : Unit {
+		val builder = AlertDialog.Builder(this)
+		val textView = findViewById<TextView>(R.id.textView2) //텍스트 표시를 위해 명목상 필요
+		builder.setTitle("안내")
+		builder.setMessage("종료하시겠습니까")
+		builder.setIcon(android.R.drawable.ic_dialog_alert)
+
+		builder.setPositiveButton("예"){ dialog, which ->
+			Snackbar.make(textView, "예 버튼이 눌렸습니다", Snackbar.LENGTH_LONG).show()
+
+		}
+		builder.setNegativeButton("아니오"){dialog, which ->
+			Snackbar.make(textView, "아니오 버튼이 눌렸습니다", Snackbar.LENGTH_LONG).show()
+		}
+
+		val dialog = builder.create()
+		dialog.show()
+	}
+```

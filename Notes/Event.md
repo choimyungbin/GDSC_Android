@@ -1,7 +1,7 @@
 ## 이벤트 처리 방법
-------
+
 ### 터치한 위치 구하기
-----
+
  1. 뷰 변수 선언
     ex) 
 ```kotlin 
@@ -26,7 +26,7 @@ ex)
 ```
 
 ### 제스처 구하기
----------
+
  1. GestureDetector 변수 선언 
   ex)
 ```kotlin 
@@ -85,7 +85,7 @@ ex)
 ```
 
 ### 누르면 그림 바뀌는 아이콘(xml에서 관리)
--------
+
 ```xml 
     <?xml version="1.0" encoding="utf-8"?>
     <selector xmlns:android="http://schemas.android.com/apk/res/android">
@@ -99,7 +99,7 @@ ex)
 ```
 
 ### 뒤로가기 눌렀을 때 Toast 메세지
----
+
  - onCreate() 밖에 함수 설정
 ```kotlin 
     override fun onKeyDown(keyCode: Int, event: KeyEvent?): Boolean {
