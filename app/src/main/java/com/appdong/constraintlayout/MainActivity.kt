@@ -2,9 +2,10 @@ package com.appdong.constraintlayout
 
 import android.content.Context
 import android.os.Bundle
-import android.view.LayoutInflater
-import android.widget.Button
-import android.widget.FrameLayout
+import android.view.View
+import android.view.ViewGroup
+import android.widget.BaseAdapter
+import android.widget.ListView
 import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
@@ -12,12 +13,26 @@ class MainActivity : AppCompatActivity() {
 		super.onCreate(savedInstanceState)
 		setContentView(R.layout.activity_main)
 
-		val container = findViewById<FrameLayout>(R.id.container)
-		val button = findViewById<Button>(R.id.button21)
-		button.setOnClickListener { v ->
-			val inflater = getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater
-			inflater.inflate(R.layout.sub1, container, true)
-		}
+		val listView = findViewById<ListView>(R.id.listView)
 	}
 
+	class SingerAdaptor : BaseAdapter(){
+		var items =  ArrayList<SingerItem>()
+		override fun getCount(): Int {
+			return items.size
+		}
+
+		override fun getItem(position: Int): Any {
+			return items[position] //items.get(position)
+		}
+
+		override fun getItemId(position: Int): Long {
+			return position as Long
+		}
+
+//		override fun getView(position: Int, convertView: View?, parent: ViewGroup?): Unit {
+//
+//		}
+
+	}
 }
