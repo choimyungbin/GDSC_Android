@@ -14,6 +14,9 @@ class ListViewAdapter : BaseAdapter() {	//BaseAdapter 를 상속한다는 뜻
 	fun addItem(item: SingerItem){
 		items.add(item)
 	}
+	fun removeItem(){
+		items.removeAt(items.size - 1)
+	}
 	// 해당 아이템 반환
 	override fun getItem(position: Int): SingerItem {
 		return items[position] //items.get(position)
