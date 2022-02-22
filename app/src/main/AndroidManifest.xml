@@ -10,6 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyConstraintLayout">
         <activity
+            android:name=".MenuActivity"
+            android:exported="true"
+            android:label="@string/title_activity_menu"
+            android:theme="@style/Theme.MyConstraintLayout.NoActionBar" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
