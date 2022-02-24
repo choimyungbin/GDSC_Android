@@ -44,7 +44,7 @@ private val button: AppCompatButton by lazy { findViewById(R.id.button26) }
  - registerForActivityResult는 다른 액티비티에서 값을 받을 때 사용.
  - resultCode라는 속성을 다음 액티비티로부터 받아올 건데,
    해당 속성이 RESULT_OK일 경우 특정 String을 받아오도록 설정
- - 여기서는 "name"이라는 태그의 값을 name이라는 val에 가져온 후, textView에 띄우고 토스트로 알려줌
+ - 여기서는 "name"이라는 태그의 값을 name이라는 변수에 가져온 후, textView에 띄우고 토스트로 알려줌
    ("name"과 그에 해당하는 값은 딕셔너리처럼 작용)
 
 3. 버튼을 눌렀을 때 화면 불러오기
@@ -54,6 +54,8 @@ private val button: AppCompatButton by lazy { findViewById(R.id.button26) }
 			activityResultLauncher.launch(intent)
 		}
 ```
+ - Intent 객체 생성, Context와 띄울 액티비티 설정
+ - 액티비티 띄우기
 
 ###MenuActivity
 
