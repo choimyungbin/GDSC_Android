@@ -16,6 +16,7 @@ class MainActivity : AppCompatActivity() {
 	override fun onCreate(savedInstanceState: Bundle?) {
 		super.onCreate(savedInstanceState)
 		setContentView(R.layout.activity_main)
+
 		activityResultLauncher = registerForActivityResult(ActivityResultContracts.StartActivityForResult()) {
 			if(it.resultCode == RESULT_OK){
 				val name = it.data?.getStringExtra("name")
