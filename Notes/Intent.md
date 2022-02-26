@@ -42,7 +42,7 @@ private val button: AppCompatButton by lazy { findViewById(R.id.button26) }
    현재 ActivityForResult는 메모리 부족 문제 때문에 안드로이드에서 deprecated 됨)
    
 2. 다음 액티비티에서 불러올 값 작성
-```kotlin
+```kotlin 
 		activityResultLauncher = registerForActivityResult(ActivityResultContracts.StartActivityForResult()) {
 			if(it.resultCode == RESULT_OK){
 				val name = it.data?.getStringExtra("name")
